@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atoms>
+    <atom name="Hydrogen" symbol="H" bond="1"/>
+    <atom name="Helium" symbol="He" bond="0"/>
+    
+    <atom name="Lithium" symbol="Li" bond="1"/>
+    <atom name="Beryllium" symbol="Be" bond="2"/>
+    <atom name="Boron" symbol="B" bond="3"/>
+    <atom name="Carbon" symbol="C" bond="4"/>
+    <atom name="Nitrogen" symbol="N" bond="3"/>
+    <atom name="Oxygen" symbol="O" bond="2"/>
+    <atom name="Fluorine" symbol="F" bond="2"/>
+    <atom name="Neon" symbol="Ne" bond="0"/>
+    
+    <atom name="Sodium" symbol="Na" bond="1"/>
+    <atom name="Magnesium" symbol="Mg" bond="2"/>
+    <atom name="Aluminium" symbol="Al" bond="3"/>
+    <atom name="Silicon" symbol="Si" bond="4"/>
+    <atom name="Phosphorus" symbol="P" bond="5"/>
+    <atom name="Sulfur" symbol="S" bond="6"/>
+    <atom name="Chlorine" symbol="Cl" bond="1"/>
+    <atom name="Argon" symbol="Ar" bond="0"/>
+    
+    <atom name="Potassium" symbol="K" bond="1"/>
+    <atom name="Calcium" symbol="Ca" bond="2"/>
+    <atom name="Scandium" symbol="Sc" bond="1"/>
+    <atom name="Titanium" symbol="Ti" bond="0"/>
+    <atom name="Vanadium" symbol="V" bond="1"/>
+    <atom name="Chromium" symbol="Ch" bond="2"/>
+    <atom name="Manganese" symbol="Mg" bond="3"/>
+    <atom name="Iron" symbol="Fe" bond="4"/>
+    <atom name="Cobalt" symbol="Co" bond="3"/>
+    <atom name="Nickel" symbol="Ni" bond="2"/>
+    <atom name="Copper" symbol="Cu" bond="2"/>
+    <atom name="Zinc" symbol="Zn" bond="0"/>
+    <atom name="Gallium" symbol="Ga" bond="3"/>
+    <atom name="Germanium" symbol="Ge" bond="4"/>
+    <atom name="Arsenic" symbol="As" bond="3"/>
+    <atom name="Selenium" symbol="Se" bond="2"/>
+    <atom name="Bromine" symbol="Br" bond="2"/>
+    <atom name="Krypton" symbol="Kr" bond="0"/>
+</atoms>

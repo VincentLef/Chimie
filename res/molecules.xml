@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecules>
+
+    <molecule symbol="CO2" name="Carbon Dioxide">
+        <atom name="Carbon"/>
+        <atom name="Oxygen"/>
+        <atom name="Oxygen"/>
+    </molecule>
+    
+    <molecule symbol="O2" name="Dioxygen">
+        <atom name="Oxygen"/>
+        <atom name="Oxygen"/>
+    </molecule>
+
+    <molecule symbol="CH4" name="Methane">
+        <atom name="Carbon"/>
+        <atom name="Hydrogen"/>
+        <atom name="Hydrogen"/>
+        <atom name="Hydrogen"/>
+        <atom name="Hydrogen"/>
+    </molecule>
+    
+</molecules>
