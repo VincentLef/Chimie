@@ -42,12 +42,12 @@ public class AtomTest extends JPanel {
         }
     }
 
-    public void paintComponent(Graphics g) {
+    public void paintComponent(Graphics graphics) {
         super.paintComponent(g);
 
         for (int i = 0; i < atomPanels.size(); ++i) {
             for (int j = i + 1; j < atomPanels.size(); ++j) {
-                drawBond(g, i, j);
+                drawBond(graphics, atomPanels.get(i), atomPanels.get(j));
             }
         }
     }
@@ -59,16 +59,13 @@ public class AtomTest extends JPanel {
     }
 
     private void addAtomPanel(AnAtom atom) {
-        //Point coord = atom.getCoord();
         DrawAtom panel = new DrawAtom(atom, this.thread);
-        
-        //panel.setLocation(coord.x - DrawAtom.SIZE / 2, coord.y - DrawAtom.SIZE / 2);
         atomPanels.add(panel);
         this.add(panel);
     }
 
-    private void drawBond(Graphics g, int i, int j) {
-        BondDrawer bd = new BondDrawer(atomPanels.get(i), atomPanels.get(j));
+    private void drawBond(Graphics g, AtomPanel atom1, AtomPanel atom2) {
+        BondDrawer bd = new BondDrawer(atom1, atom2);
         bd.setGraphics(g);
         bd.paintBond();
     }
